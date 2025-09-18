@@ -1,0 +1,10 @@
+@import "tailwindcss";
+:root {
+  --color-primary: linear-gradient(to left, #082fcca1, #d4cadd);
+  --color-secondary: linear-gradient(to right, #f59e0b, #ef4444);
+}
+
+body {
+  @apply min-h-screen text-white;
+  background-image: var(--color-primary);
+}
